@@ -1,5 +1,6 @@
 #include "arquivos.h"
 #include "utility.h"
+
 #include <errno.h>
 #include <stdarg.h>
 #include <stdio.h>
