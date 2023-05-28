@@ -1,0 +1,27 @@
+# .gitignore
+
+# Ignora o diretório .replit
+.replit
+
+# Ignora os arquivos binários de compilação
+*.o
+*.out
+*.a
+*.so
+
+# Ignora arquivos de backup criados por alguns editores de texto
+*~
+
+# Ignora o arquivo de log
+*.log
+
+# Ignora diretórios criados pelo compilador
+Debug/
+Release/
+.ccls-cache/
+
+# Ignora arquivos de configuração do compilador
+*.user
+*.sdf
+*.suo
+*.opensdf

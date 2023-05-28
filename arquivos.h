@@ -4,6 +4,7 @@
 void showMenu();
 void newExpense();
 void listExpense();
+void error(const char *format, ...);
 
 #define ARQUIVO "expenses.dat"
 
