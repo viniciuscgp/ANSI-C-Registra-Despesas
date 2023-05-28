@@ -8,17 +8,13 @@
 *.out
 *.a
 *.so
+*.exe
 
 # Ignora arquivos de backup criados por alguns editores de texto
 *~
 
 # Ignora o arquivo de log
 *.log
-
-# Ignora diretórios criados pelo compilador
-Debug/
-Release/
-.ccls-cache/
 
 # Ignora arquivos de configuração do compilador
 *.user
