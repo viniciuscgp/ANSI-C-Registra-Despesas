@@ -87,19 +87,19 @@ void listExpense() {
 
   total = 0;
   while (fgets(line, 255, file) != NULL) {
-    fgets(line, 255, file);
     // retira o \n retornado por fgets
     line[strcspn(line, "\n")] = 0;
     parts[0] = strtok(line, ";");
     parts[1] = strtok(NULL, ";");
 
     // Esta tudo ok ? Imprime e calcula
-    if (parts[0] && parts[1]) {
+    if (parts[0] != NULL && parts[1] != NULL) {
       value = atof(parts[1]);
       printf("%-15.15s | %12.2f\n", parts[0], value);
       total += value;
     }
   }
+
   printf("==========================================\n");
   printf("%-15.15s | %12.2f\n", "Total->", total);
 
