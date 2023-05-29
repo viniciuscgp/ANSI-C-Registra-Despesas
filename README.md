@@ -15,6 +15,10 @@ Para compilar o código, basta executar o seguinte comando no diretório raiz do
 make
 ```
 
+### Eu testei no Windows e no Linux, deve funcionar no Mac OS também. *
+* No Windows para intalar o GCC, vá até o site: 
+https://sourceforge.net/projects/mingw/files/Installer/mingw-get/
+
 Isso criará um executável chamado `expenses`.
 
 ## Uso
