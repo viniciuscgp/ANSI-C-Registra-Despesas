@@ -1,7 +1,7 @@
 #include <errno.h>
 #include <stdio.h>
 
-#include "arquivos.h"
+#include "main.h"
 #include "utility.h"
 #include "new_expense.h"
 #include "list_expense.h"
