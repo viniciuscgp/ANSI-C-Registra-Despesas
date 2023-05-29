@@ -1,10 +1,10 @@
 all: expenses
 
 CC = gcc
-override CFLAGS += -g -Wno-everything -pthread -lm
+override CFLAGS += -g -pthread -lm -Iinclude
 
-SRCS = *.c
-HEADERS = *.h
+SRCS = $(wildcard src/*.c)
+HEADERS = $(wildcard include/*.h)
 
 expenses: $(SRCS) $(HEADERS)
 	$(CC) $(CFLAGS) $(SRCS) -o "$@"
