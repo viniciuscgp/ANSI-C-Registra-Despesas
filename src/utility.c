@@ -4,7 +4,8 @@
 #include "stdlib.h"
 
 /**
- *  clear input buffer
+ * @brief clear input buffer
+ * @return void
  */
 void clearBuffer()
 {
@@ -13,7 +14,8 @@ void clearBuffer()
 }
 
 /**
-Show a error message and wait for ENTER
+* @brief Show a error message and wait for ENTER
+* @returns void
 */
 void error(const char *format, ...)
 {
@@ -25,7 +27,8 @@ void error(const char *format, ...)
 }
 
 /**
-Waits for user to push enter
+ * @brief  for user to push enter
+ * @return void
 */
 void waitForEnter()
 {
@@ -37,6 +40,10 @@ void waitForEnter()
   scanf("%c", &c);
 }
 
+/**
+ * @brief Clear the console screen
+ * @return void
+*/
 void clearScreen() 
 {
 #ifdef _WIN32 
